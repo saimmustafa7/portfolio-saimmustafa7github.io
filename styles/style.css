@@ -418,7 +418,6 @@ flex-direction: column;
 @media screen and (max-width:1024px) {
     .about{
         flex-direction: column;
-
     }
     .about-content{
         width: 100%;
@@ -431,3 +430,206 @@ flex-direction: column;
     }
 }
 
+/* ===== TABLET / LARGE MOBILE ===== */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .about-head {
+        width: 100%;
+        padding: 40px 40px 10px;
+    }
+
+    .about-content {
+        padding: 10px 40px 40px;
+    }
+
+    .about-content p {
+        font-size: 2rem;
+    }
+
+    .tags {
+        gap: 2rem;
+        margin-top: 50px;
+    }
+
+    .tags p {
+        font-size: 5rem;
+    }
+
+    .tags-text {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .service-content {
+        width: 100%;
+    }
+
+    .service-content p {
+        font-size: 5rem;
+        padding: 30px 40px;
+    }
+
+    .table {
+        padding: 30px 40px;
+    }
+
+    .table p {
+        font-size: 4rem;
+    }
+
+    .work {
+        padding: 40px;
+    }
+
+    .work-content {
+        width: 100%;
+    }
+
+    .work-content p {
+        font-size: 2rem;
+    }
+
+    .projects {
+        font-size: 10rem;
+        padding-top: 60px;
+        top: 30px;
+    }
+
+    .pic1, .pic2, .pic3 {
+        width: 70%;
+        height: 350px;
+        left: 15%;
+        margin-bottom: 20px;
+    }
+
+    .pic2 {
+        left: 15%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 40px;
+        gap: 20px;
+    }
+
+    .footer div {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .col2, .col3 {
+        position: static;
+    }
+}
+
+/* ===== MOBILE PHONE ===== */
+@media screen and (max-width: 430px) {
+    .navbar {
+        padding: 1.5rem 2rem;
+    }
+
+    .hero-services {
+        visibility: hidden;
+    }
+
+    .about-head {
+        width: 100%;
+        padding: 30px 25px 10px;
+    }
+
+    .about-content {
+        padding: 10px 25px 30px;
+    }
+
+    .about-content p {
+        font-size: 1.8rem;
+    }
+
+    .tags {
+        gap: 1.5rem;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .tags p {
+        font-size: 4rem;
+    }
+
+    .tags-text {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .tags-text p {
+        font-size: 1.2rem;
+    }
+
+    .service-content {
+        width: 100%;
+    }
+
+    .service-content p {
+        font-size: 3.2rem;
+        padding: 20px 25px;
+    }
+
+    .table {
+        padding: 20px 25px;
+    }
+
+    .table p {
+        font-size: 2.4rem;
+    }
+
+    .work {
+        padding: 30px 25px;
+    }
+
+    .work-content {
+        width: 100%;
+    }
+
+    .work-content p {
+        font-size: 1.8rem;
+    }
+
+    .projects {
+        font-size: 5.5rem;
+        padding-top: 40px;
+        top: 20px;
+    }
+
+    .pic1, .pic2, .pic3 {
+        width: 82%;
+        height: 260px;
+        left: 9%;
+        margin-bottom: 15px;
+        border-radius: 20px;
+    }
+
+    .pic2 {
+        left: 9%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 30px 25px;
+        gap: 20px;
+    }
+
+    .footer div {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .col2, .col3 {
+        position: static;
+    }
+
+    .bottom-heading {
+        padding-top: 6vh;
+    }
+}
